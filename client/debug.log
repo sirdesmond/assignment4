@@ -1,0 +1,18 @@
+DEBUG:Client:connecting to ('127.0.0.1', '5000') ...
+DEBUG:Client:is readable called
+DEBUG:Client:is writable? - True
+DEBUG:Client:handle connect called
+DEBUG:Client:handle write called -> (1) "4" 
+DEBUG:Client:is readable called
+DEBUG:Client:is writable? - False
+DEBUG:Client:handle read called -> (1) "4" 
+DEBUG:Client:is readable called
+DEBUG:Client:is writable? - False
+DEBUG:Client:is readable called
+DEBUG:Client:is writable? - False
+DEBUG:Client:is readable called
+DEBUG:Client:is writable? - False
+DEBUG:Client:is readable called
+DEBUG:Client:is writable? - False
+DEBUG:Client:handle close called
+DEBUG:Client:handle read called -> (0) "" 
