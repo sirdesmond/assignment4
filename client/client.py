@@ -7,6 +7,7 @@ import asyncore
 
 
 
+#parser for input arguments 
 def parse():
 	parser = OptionParser()
 
@@ -18,6 +19,11 @@ def parse():
 
 
 
+'''
+	This class is the http client to talk to the scheduler
+	The asyncore module is acting as the notification handler 
+	It detects  when there is some data to read or write,connects and closes the socket
+'''
 class Client(asyncore.dispatcher):
 	def __init__(self,options,size=1024):
 		
